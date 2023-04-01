@@ -1,4 +1,4 @@
-ipeline{
+pipeline{
 	agent any 
 	stages{
 		stage('1-clone'){
@@ -8,32 +8,32 @@ ipeline{
 		}
 		stage('2-Gerald'){
 			steps{
-				sh 'echo "team5group3 member"'
+				echo "team5group3 member"
 			}
 		}
 		stage('3-Pretei'){
 			steps{
-				sh 'echo "team5group3 member"'
+				echo "team5group3 member"
 			}
 		}
 		stage('4-Benoit'){
 			steps{
-				sh 'echo "team5group3 member"'
+				echo "team5group3 member"
 			}
 		}
 		stage('5-Henry'){
 			steps{
-				sh 'echo "team5group3 member"'
+				echo "team5group3 member"
 			}
 		}
 		stage('6-Olisa'){
 			steps{
-				sh 'echo "team5group3 member"'
+				echo "team5group3 member"
 			}
 		}
 		stage('7-Odile'){
 			steps{
-				sh 'echo "team5group3 member"'
+				echo "team5group3 member"
 			}
 		}
 		stage('2-systemscheck'){
